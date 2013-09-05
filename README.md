@@ -1,7 +1,7 @@
 express-tree
 ============
 
-> Hierarchical (almost-declarative) **routing** for [express](expressjs.com).
+> Hierarchical (almost-declarative) **routing** for [express](http://expressjs.com).
 
 ### Plant
 `npm i express-tree --save`
