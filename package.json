@@ -1,0 +1,19 @@
+{
+  "name": "express-tree",
+  "description": "Hierarchical (almost-declarative) routing definitions for express.js",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "express": ""
+  },
+  "keywords": [
+    "express",
+    "router",
+    "tree"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyy/express-tree.git"
+  },
+  "license": "MIT"
+}
