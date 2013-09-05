@@ -26,7 +26,8 @@ app.tree({
         register: 'account/register', // => /account/register
         settings: [ logged, 'account/settings' ],  // middleware works too!
     },
-    'POST login': passport.authenticate('local', { // POST, PUT, and DELETE works like this. Not recommended, though.
+    // POST, PUT, and DELETE works like this. Not recommended, though.
+    'POST login': passport.authenticate('local', { 
         successRedirect: '/',
         failureRedirect: '/login',
         failureMessage: true,
