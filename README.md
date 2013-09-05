@@ -1,10 +1,9 @@
 express-tree
 ============
 
-> Hierarchical (almost-declarative) **routing** for express.js
+> Hierarchical (almost-declarative) **routing** for [express](expressjs.com).
 
-Plant
--------
+### Plant
 `npm i express-tree --save`
 ```js
 var express = require('express');
@@ -13,8 +12,7 @@ require('express-tree');
 var app = express();
 ```
 
-Pluck
----
+### Pluck
 ```js
 app.tree({
     '': function(req, res) {          // => app.get('/', ...)
