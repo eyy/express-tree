@@ -27,9 +27,7 @@ app.tree({
     // POST, PUT, and DELETE works like this. Not recommended, though.
     'POST login': passport.authenticate('local', { 
         successRedirect: '/',
-        failureRedirect: '/login',
-        failureMessage: true,
-        badRequestMessage: ''
+        failureRedirect: '/login'
     })
 });
 ```
